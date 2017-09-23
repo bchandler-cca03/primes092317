@@ -8,6 +8,9 @@
     // at first instance divisbile by a number other
                       // than itself and 1, the logical variable isPrime
                       // is set to false.
+console.log("\tPrime \t\t\t Sqrt");
+console.log("\t-----------------------------");
+
 loop1:
 for (var testNum = 30; testNum>=2; testNum--){
     var limit = testNum;
@@ -23,7 +26,7 @@ for (var testNum = 30; testNum>=2; testNum--){
                         // break invoked with a prime number being identified.
                         isPrime = true;
                         var squareRootNum = (Math.round(Math.sqrt(testNum)* 1000))/1000;
-                        console.log(testNum + "\t is Prime and Sqrt is \t" + squareRootNum);
+                        console.log("\t" + testNum + "\t\t\t" + squareRootNum);
                         // console.log(isPrime);
                         continue loop1;
                     } else {
